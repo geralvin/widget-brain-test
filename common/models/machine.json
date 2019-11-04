@@ -18,7 +18,10 @@
       "type": "number",
       "required": true,
       "dataType": "decimal",
-      "precision": "10"
+      "precision": "10",
+      "postgresql": {
+        "dataType": "NUMERIC(10,5)"
+      }
     }
   },
   "validations": [],

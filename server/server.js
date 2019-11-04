@@ -7,8 +7,10 @@
 
 var loopback = require('loopback');
 var boot = require('loopback-boot');
+const fileUpload = require('express-fileupload');
 
 var app = module.exports = loopback();
+app.use(fileUpload());
 
 app.start = function() {
   // start the web server
@@ -20,12 +22,6 @@ app.start = function() {
       var explorerPath = app.get('loopback-component-explorer').mountPath;
       console.log('Browse your REST API at %s%s', baseUrl, explorerPath);
     }
-
-    app.get('/wkwk', (req, res) => {
-      const machine = require('../common/models/machine');
-      console.log(machine);
-      res.send(machine.findOne());
-    });
   });
 };
 

@@ -8,9 +8,5 @@
     "name": "db",
     "user": "postgres",
     "connector": "postgresql"
-  },
-  "file": {
-    "name": "file",
-    "connector": "loopback-component-storage"
   }
 }

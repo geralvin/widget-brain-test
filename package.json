@@ -15,15 +15,19 @@
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "exceljs": "^3.3.1",
+    "express-fileupload": "^1.1.6-alpha.6",
     "helmet": "^3.10.0",
+    "install": "^0.13.0",
     "loopback": "^3.22.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^6.2.0",
     "loopback-component-storage": "^3.6.3",
     "loopback-connector-postgresql": "^3.8.0",
     "nodemon": "^1.19.4",
+    "npm": "^6.12.1",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^3.0.0"
+    "strong-error-handler": "^3.0.0",
+    "xlsx": "^0.15.1"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
