@@ -24,7 +24,7 @@
     "loopback-component-storage": "^3.6.3",
     "loopback-connector-postgresql": "^3.8.0",
     "nodemon": "^1.19.4",
-    "npm": "^6.12.1",
+    "npm": "^6.14.6",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^3.0.0",
     "xlsx": "^0.15.1"
